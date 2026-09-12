@@ -20,7 +20,16 @@ wagenix 让你在 Windows 上使用与 [agenix](https://github.com/ryantm/agenix
 
 ## 快速开始
 
-### 构建
+### 安装（Scoop）
+
+从 [lorlike/my-bucket](https://github.com/lorlike/my-bucket) 安装：
+
+```powershell
+scoop bucket add lorlike 'https://github.com/lorlike/my-bucket.git'
+scoop install lorlike/wagenix
+```
+
+### 从源码构建
 
 ```powershell
 cargo build --release
